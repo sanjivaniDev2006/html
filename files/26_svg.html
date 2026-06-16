@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SVG</title>
+</head>
+<body>
+      <svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ears -->
+  <circle cx="120" cy="90" r="40" fill="black"/>
+  <circle cx="280" cy="90" r="40" fill="black"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="180" r="120" fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Eye Patches -->
+  <ellipse cx="145" cy="170" rx="35" ry="45" fill="black"/>
+  <ellipse cx="255" cy="170" rx="35" ry="45" fill="black"/>
+
+  <!-- Eyes -->
+  <circle cx="145" cy="170" r="12" fill="white"/>
+  <circle cx="255" cy="170" r="12" fill="white"/>
+  <circle cx="145" cy="170" r="5" fill="black"/>
+  <circle cx="255" cy="170" r="5" fill="black"/>
+
+  <!-- Nose -->
+  <ellipse cx="200" cy="220" rx="18" ry="12" fill="black"/>
+
+  <!-- Mouth -->
+  <path d="M200 232 v20" stroke="black" stroke-width="3" fill="none"/>
+  <path d="M200 252 C185 270, 165 270, 155 255"
+        stroke="black" stroke-width="3" fill="none"/>
+  <path d="M200 252 C215 270, 235 270, 245 255"
+        stroke="black" stroke-width="3" fill="none"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="330" rx="90" ry="70" fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Arms -->
+  <ellipse cx="110" cy="310" rx="30" ry="55" fill="black" transform="rotate(-25 110 310)"/>
+  <ellipse cx="290" cy="310" rx="30" ry="55" fill="black" transform="rotate(25 290 310)"/>
+
+  <!-- Legs -->
+  <ellipse cx="145" cy="385" rx="35" ry="25" fill="black"/>
+  <ellipse cx="255" cy="385" rx="35" ry="25" fill="black"/>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="330" rx="45" ry="35" fill="#f5f5f5"/>
+</svg>
+</body>
+</html>
